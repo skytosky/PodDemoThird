@@ -1,0 +1,30 @@
+{
+  "name": "PodDemoThird",
+  "version": "0.1.0",
+  "summary": "PodDemoThird.",
+  "description": "PodDemoThird ..........",
+  "homepage": "https://github.com/skytosky/PodDemoThird.git",
+  "license": "MIT",
+  "authors": {
+    "467504109@qq.com": "467504109@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/skytosky/PodDemoThird.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PodDemoThird": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
